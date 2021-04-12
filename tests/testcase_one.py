@@ -1,5 +1,4 @@
 import time
-from selenium.webdriver.support.select import Select
 
 from page_objects import home_page, product_page, detail_page, cart_page
 from utilities.base_class import baseClass
