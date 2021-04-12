@@ -18,8 +18,8 @@ class baseClass():
         return logger
 
     def childWindowShift(self):
-        childindow = self.driver.window_handles[1]
-        self.driver.switch_to.window(childindow)
+        childWindow = self.driver.window_handles[1]
+        self.driver.switch_to.window(childWindow)
 
     def selectFromDropDown(self,element):
         select = Select(element)
